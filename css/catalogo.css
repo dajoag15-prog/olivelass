@@ -1,0 +1,48 @@
+/* ---------- Submenú desplegable (por clic) ---------- */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  color: #dd7070;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.dropbtn:hover {
+  color: #ff80ab;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(6px);
+  min-width: 180px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 10000;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px 15px;
+  color: #dd7070;
+  text-decoration: none;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(255, 128, 171, 0.1);
+  color: #ff80ab;
+}
+
+/* Cuando el menú está activo */
+.dropdown-content.show {
+  display: block;
+}
