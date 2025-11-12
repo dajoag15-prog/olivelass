@@ -67,9 +67,9 @@ body {
 header {
     width: 100%;
     height: 700px;
-    background-image:
-        linear-gradient(rgba(53, 50, 50, 0.4), rgba(0,0,0,0.4)),
-        var(--header-bg); /* ahora toma la imagen del HTML */
+    background-image: 
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+        url("../img/na.jpg"); /* asegúrate de que la ruta sea correcta */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
