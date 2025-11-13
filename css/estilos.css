@@ -104,8 +104,8 @@ nav.scrolled {
 
 
 nav a {
-  color: #dd7070;
-  font-weight: 600;
+  color: #f52a2a;
+  font-weight: 900;
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -124,6 +124,7 @@ html {
   margin: 0 auto;          /* centra el bloque en la página */
   font-family: "Segoe UI", sans-serif;
   padding: 50px 0;
+  
 }
 
 
@@ -138,12 +139,12 @@ html {
   gap: 20px;
   color: #fff;
 
-  padding-top: 100px; /* ajusta este valor hasta que quede donde quieres */
+  padding-top: 140px; /* ajusta este valor hasta que quede donde quieres */
 }
 
 .textos-header h1 {
   font-size: 3rem;
-  font-weight: 800;
+  font-weight: 900;
   margin: 0;
 }
 
