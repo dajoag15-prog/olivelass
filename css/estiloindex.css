@@ -97,6 +97,7 @@ nav {
   z-index: 9999;
 }
 
+
 nav.scrolled {
   background: rgba(255, 255, 255, 0.8); /* color sólido al hacer scroll */
 }
@@ -138,7 +139,7 @@ html {
   gap: 20px;
   color: #fff;
 
-  padding-top: 240px; /* ajusta este valor hasta que quede donde quieres */
+  padding-top: 230px; /* ajusta este valor hasta que quede donde quieres */
 }
 
 .textos-header h1 {
